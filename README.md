@@ -27,7 +27,9 @@ For reading convenience, I divide the whole project to several parts:
 ### [PartI](https://github.com/victorchennn/StockMovement-Prediction/blob/master/Part_I.ipynb)
 * Phase1: Loading in the Data
 * Phase2: EDA
-* Phase3: Text Encoding techniques
+* Phase3: Sentiment Analysis
+* Phase4: Text Encoding techniques
+* Phase5: Stemming
 ### [PartII](https://github.com/victorchennn/StockMovement-Prediction/blob/master/Part_II.ipynb)
 * Phase1: Empirical Probability
 * Phase2: Sigmoid Function
@@ -40,7 +42,6 @@ For reading convenience, I divide the whole project to several parts:
 * Phase2: Confusion Matrix
 * Phase3: Classification Threshold & F-measure
 * Phase4: ROC curve & AUC
-* Phase5: .......
 ### [PartIV](https://github.com/victorchennn/StockMovement-Prediction/blob/master/Part_IV.ipynb)
 * Phase1: .......
 
