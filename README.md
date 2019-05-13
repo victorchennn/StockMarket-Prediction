@@ -1,4 +1,4 @@
-# StockMarket-Prediction（updating）
+# StockMarket-Prediction
 
 StockMarket prediction is a typical binary-classification problem, it is an open dataset from [Kaggle](https://www.kaggle.com/aaron7sun/stocknews/home), 
 which has three raw datasets:
@@ -18,7 +18,7 @@ Time range is from 2008-08-08 to 2016-07-01, for task evaluation, we use data fr
 Training Set, and Test Set is then the following two years data (from 2015-01-02 to 2016-07-01). This is roughly a 80%/20% 
 split.
 
-Since it's a binary-classification problem, we have only two labels:
+Since it's a binary-classification problem, it only has two labels:
 
 * "**1**" when DJIA Adj Close value rose or stayed as the same.
 * "**0**" when DJIA Adj Close value decreased.
@@ -43,7 +43,10 @@ For reading convenience, I divide the whole project to several parts:
 * Phase3: Classification Threshold & F-measure
 * Phase4: ROC curve & AUC
 ### [PartIV](https://github.com/victorchennn/StockMovement-Prediction/blob/master/Part_IV.ipynb)
-* Phase1: .......
+* Phase1: Naive Bayes
+* Phase2: Decision Tree
+* Phase3: Random Forest
+* Phase4: Gradient Boosting
 
 ## Install
 Since most of work is done on jupyter, you should install it with `pip`:
